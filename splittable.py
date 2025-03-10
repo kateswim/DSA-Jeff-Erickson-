@@ -4,6 +4,10 @@ import time
 word_set = set(words.words()) 
 
 def isword(w):
+    global word_set
+    for w in word_set:
+        print(f"word_set found w in set : {w}")
+        
     return w in word_set  # Check if w exists in the English dictionary
 
 
