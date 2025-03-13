@@ -19,7 +19,7 @@ def fast_splittable(s,table):
     for i in range(n, -1, -1):
         table[i]=False
         for j in range(i,n+1):
-            if isword(s[i:j]) and table[j+1]:
+            if isword(s[i:j]) and (j+1 <= n and table[j+1]):
                 table[i]=True
                 print(f"table[i] {table[i]}")
                 print(f"table[j+1] {table[j+1]}")
@@ -31,6 +31,6 @@ def fast_splittable(s,table):
 #s='bedbathandbeyondyoutakingtoolongisunbearable'
 s='bedbathandbeyondvariable'
 n = len(s)
-table=[False]*(n+2)
+table=[False]*(n+1)
 
 print(fast_splittable(s,table))

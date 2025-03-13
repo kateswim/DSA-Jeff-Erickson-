@@ -1,18 +1,10 @@
 word_set found w in set : able
-table[i] False
-table[j+1] True
-table 
-[False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, True]
 word_set found w in set : variable
-table[i] False
-table[j+1] True
-table 
-[False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, True]
 word_set found w in set : beyond
 word_set found w in set : and
 word_set found w in set : hand
 word_set found w in set : bat
 word_set found w in set : bath
 word_set found w in set : bed
-table [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True]
+table [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
 False
